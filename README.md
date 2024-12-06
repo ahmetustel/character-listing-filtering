@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Karakter Listeleme ve Filtreleme Projesi
 
-## Getting Started
+Bu proje, Rick ve Morty evrenindeki karakterleri listeleyen ve filtreleme seçenekleri sunan bir web uygulamasıdır. Kullanıcılar, karakterleri cinsiyet, durum ve sayfa numarasına göre filtreleyebilir ve detaylı bilgilerine erişebilirler. Uygulama, Rick and Morty API kullanılarak geliştirilmiştir ve Next.js framework’ü üzerine inşa edilmiştir.
 
-First, run the development server:
+## Başlarken
+
+Kurulum başlığı altındaki adımları izleyerek proje kurulumunu yapabilirsiniz.
+
+### Gereksinimler
+
+- Node.js v20.12.2
+- yarn
+
+### Kurulum
+
+1. Depoyu klonlayın:
+
+   ```bash
+   git clone https://github.com/ahmetustel/character-listing-filtering.git
+   ```
+
+2. Proje dizinine gidin:
+
+   ```bash
+   cd listing-filtering-app
+   ```
+
+3. Bağımlılıkları yükleyin:
+
+   ```bash
+   yarn install
+   ```
+
+4. Uygulamayı çalıştırın:
+
+   ```bash
+   yarn dev
+   ```
+
+### Kullanım
+
+    •	Karakterleri Listeleme
+
+Ana sayfada, tüm karakterlerin bir listesi görüntülenir.
+• Filtreleme
+Sayfanın üst kısmında bulunan filtreleme seçeneklerini kullanarak karakterleri cinsiyet (gender), durum (status)'e göre göre filtreleyebilir, sayfanın alt kısmında bulunan sayfalama işlemi ile sayfa değiştirebilirsiniz.
+
+### Katkıda Bulunma
+
+Katkılarınızı memnuniyetle karşılıyoruz! Aşağıdaki adımları izleyerek projeye katkıda bulunabilirsiniz:
+
+1. Depoyu Fork Edin:
+
+Projeyi kendi GitHub hesabınıza fork edin.
+
+2. Yeni Bir Dal Oluşturun:
+
+Yeni bir özellik veya düzeltme için bir dal oluşturun.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git checkout -b ozellik-adi
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Değişikliklerinizi Yapın:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Kodunuzu yazın ve gerekli değişiklikleri yapın.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Commit Edin:
 
-## Learn More
+Değişikliklerinizi açıklayan anlamlı bir commit mesajı yazın.
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+git commit -m "Yeni özelliği ekledim"
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Dalınızı GitHub’a Push Edin:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+git push origin ozellik-adi
+```
 
-## Deploy on Vercel
+6. Pull Request Oluşturun:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+GitHub’da, projenin orijinal deposuna bir Pull Request gönderin. Değişikliklerinizi ve nedenlerini ayrıntılı bir şekilde açıklayın.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+7. İnceleme ve Birleştirme:
+
+Değişiklikleriniz incelenecek ve gerekli görülürse projeye dahil edilecektir. Geri bildirim alabilir ve gerekirse ek değişiklikler yapmanız istenebilir.
+
+### Lisans
+
+Bu proje MIT Lisansı altında lisanslanmıştır.
